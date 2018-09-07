@@ -119,3 +119,39 @@ body {
 
 
 /* HERO SECTION */
+.hero {
+	height: 100vh;
+	background-image: url('/assets/img/first-background.jpg');
+	background-position: center top;
+	background-size: cover;
+	padding-top: 10vh;
+}
+
+.hero-content {
+	color: #fff;
+	text-align: center;
+	position: relative;
+	top: 14rem;
+}
+
+.hero-content h1 {
+	font-weight: bold;
+	font-size: 3.3em;
+	margin-bottom: 2.5rem;
+}
+
+.hero-content h3 {
+	font-size: 2em;
+	margin-bottom: 1.5rem;
+}
+
+.btn {
+	background-color: #f15a29;
+	display: inline-block;
+	padding: 1rem 1.5rem;
+	border-radius: 4px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+/* MAIN SECTION */
