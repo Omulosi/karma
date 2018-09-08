@@ -155,3 +155,80 @@ body {
 }
 
 /* MAIN SECTION */
+
+.main-content h2 {
+	font-weight: 500;
+	color: #000;
+	font-size: 3.1rem;
+	text-align: center;
+	margin-top: 7rem;
+}
+
+
+.item {
+	width: 33.33%;
+	float: left;
+	margin-top: 4rem;
+}
+
+.item img {
+	width: 50%;
+}
+
+.item p {
+	font-size: 1.5em;
+}
+
+.main-items {
+	text-align: center;
+	overflow: hidden;
+	margin-bottom: 7rem;
+}
+
+/* FOOTER STYLES */
+
+.footer hr {
+	border-top: 1px solid #eaebec;
+}
+
+.footer h2 {
+	margin-top: 2em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.social-links ul {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.social-links ul > li {
+	list-style: none;
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	color: #000;
+	display: inline-block;
+	margin: 0 0.3em;
+	background-color: #f15a29;
+	line-height: 2.5rem;
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+
+.footer p {
+	text-align: center;
+	color: #777;
+	font-size: 0.9em;
+	margin-top: 2.5em;
+}
+
+.footer {
+	padding: 5em 1em;
+}
+
+.social-links ul > li:hover {
+	background-color: #ffff;
+	color: #f15a29;
+}
