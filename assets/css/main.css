@@ -121,7 +121,7 @@ body {
 /* HERO SECTION */
 .hero {
 	height: 100vh;
-	background-image: url('/assets/img/first-background.jpg');
+	background-image: url('./assets/img/first-background.jpg');
 	background-position: center top;
 	background-size: cover;
 	padding-top: 10vh;
